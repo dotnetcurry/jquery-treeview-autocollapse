@@ -1,0 +1,24 @@
+﻿#Decor {
+	width:200px;
+	background-color:#F4F4EE;
+}
+
+#Decor, #Decor ul {
+	list-style-type: none;
+	margin-left:25px;
+	margin-bottom:5px;
+	padding-left:20px;
+    cursor:pointer;
+}
+
+.handle { 
+	background: transparent url( /images/tree-handle.png ) no-repeat left top; 
+	display:block; 
+	float:left;
+	width:10px; 
+	height:10px;
+	cursor:pointer;
+}
+
+.closed { background-position: left top; }
+.opened { background-position: left -10px; }
